@@ -1,0 +1,8 @@
+#IRISDMC: http://ds.iris.edu
+#net|sta|loc|chan|lat|lon|elev|depth|azimuth|dip|instrument|scale|scalefreq|scaleunits|samplerate|start|end
+IU|MA2|00|VM1|59.5756|150.77|335.0|2.0|0.0|0.0|Streckeisen STS-1/VBB Seismometer||0||0.1|2010-07-20T00:00:00.0000|
+IU|MA2|00|VM2|59.5756|150.77|335.0|2.0|0.0|0.0|Streckeisen STS-1/VBB Seismometer||0||0.1|2010-07-20T00:00:00.0000|
+IU|MA2|00|VMZ|59.5756|150.77|335.0|2.0|0.0|0.0|Streckeisen STS-1/VBB Seismometer||0||0.1|2010-07-20T00:00:00.0000|
+IU|MA2|10|VM1|59.5756|150.77|336.7|0.3|0.0|0.0|Streckeisen STS-2 Standard-gain||0||0.1|2011-07-01T00:00:00.0000|
+IU|MA2|10|VM2|59.5756|150.77|336.7|0.3|0.0|0.0|Streckeisen STS-2 Standard-gain||0||0.1|2011-07-01T00:00:00.0000|
+IU|MA2|10|VMZ|59.5756|150.77|336.7|0.3|0.0|0.0|Streckeisen STS-2 Standard-gain||0||0.1|2011-07-01T00:00:00.0000|
