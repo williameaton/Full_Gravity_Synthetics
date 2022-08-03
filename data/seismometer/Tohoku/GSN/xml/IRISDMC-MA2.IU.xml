@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+ <FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:iris="http://www.fdsn.org/xml/station/1/iris" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.1.xsd" schemaVersion="1.1">
+  <Source>IRIS-DMC</Source>
+  <Sender>IRIS-DMC</Sender>
+  <Module>IRIS WEB SERVICE: fdsnws-station | version: 1.1.48</Module>
+  <ModuleURI></ModuleURI>
+  <Created>2022-08-03T02:06:12.7200</Created>
+  <Network code="IU" startDate="1988-01-01T00:00:00.0000" restrictedStatus="open">
+   <Description>Global Seismograph Network - IRIS/USGS (GSN)</Description>
+   <Identifier type="DOI">10.7914/SN/IU
+   </Identifier>
+   <TotalNumberStations>127</TotalNumberStations>
+   <SelectedNumberStations>1</SelectedNumberStations>
+   <Station code="MA2" startDate="2010-07-20T00:00:00.0000" restrictedStatus="open" iris:alternateNetworkCodes="_ARCTIC,_FDSN,_FDSN-ALL,_GSN,_GSN-BROADBAND,_REALTIME,_STS-1,.UNRESTRICTED">
+    <Description>(GSN) IRIS/USGS (IU) and GSRAS</Description>
+    <Latitude>59.5756</Latitude>
+    <Longitude>150.77</Longitude>
+    <Elevation>337.0</Elevation>
+    <Site>
+     <Name>Magadan, Russia</Name>
+    </Site>
+    <CreationDate>2010-07-20T00:00:00.0000</CreationDate>
+    <TotalNumberChannels>37</TotalNumberChannels>
+    <SelectedNumberChannels>6</SelectedNumberChannels>
+    <Channel code="VM1" locationCode="00" startDate="2010-07-20T00:00:00.0000" restrictedStatus="open">
+     <Latitude>59.5756</Latitude>
+     <Longitude>150.77</Longitude>
+     <Elevation>335</Elevation>
+     <Depth>2</Depth>
+     <Azimuth>0</Azimuth>
+     <Dip>0</Dip>
+     <Type>CONTINUOUS</Type>
+     <Type>HEALTH</Type>
+     <SampleRate>1E-01</SampleRate>
+     <ClockDrift>0E00</ClockDrift>
+     <Sensor>
+      <Description>Streckeisen STS-1/VBB Seismometer</Description>
+     </Sensor>
+     <Response>
+     <InstrumentPolynomial>
+       <InputUnits>
+         <Name>V</Name>
+         <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+         <Name>counts</Name>
+         <Description>Digital Counts</Description>
+       </OutputUnits>
+       <ApproximationType>MACLAURIN</ApproximationType>
+       <FrequencyLowerBound>0.0</FrequencyLowerBound>
+       <FrequencyUpperBound>0.05</FrequencyUpperBound>
+       <ApproximationLowerBound>-10.0</ApproximationLowerBound>
+       <ApproximationUpperBound>10.0</ApproximationUpperBound>
+       <MaximumError>0.0</MaximumError>
+       <Coefficient number="0">0.0</Coefficient>
+       <Coefficient number="1">0.1</Coefficient>
+     </InstrumentPolynomial>
+     </Response>
+    </Channel>
+    <Channel code="VM2" locationCode="00" startDate="2010-07-20T00:00:00.0000" restrictedStatus="open">
+     <Latitude>59.5756</Latitude>
+     <Longitude>150.77</Longitude>
+     <Elevation>335</Elevation>
+     <Depth>2</Depth>
+     <Azimuth>0</Azimuth>
+     <Dip>0</Dip>
+     <Type>CONTINUOUS</Type>
+     <Type>HEALTH</Type>
+     <SampleRate>1E-01</SampleRate>
+     <ClockDrift>0E00</ClockDrift>
+     <Sensor>
+      <Description>Streckeisen STS-1/VBB Seismometer</Description>
+     </Sensor>
+     <Response>
+     <InstrumentPolynomial>
+       <InputUnits>
+         <Name>V</Name>
+         <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+         <Name>counts</Name>
+         <Description>Digital Counts</Description>
+       </OutputUnits>
+       <ApproximationType>MACLAURIN</ApproximationType>
+       <FrequencyLowerBound>0.0</FrequencyLowerBound>
+       <FrequencyUpperBound>0.05</FrequencyUpperBound>
+       <ApproximationLowerBound>-10.0</ApproximationLowerBound>
+       <ApproximationUpperBound>10.0</ApproximationUpperBound>
+       <MaximumError>0.0</MaximumError>
+       <Coefficient number="0">0.0</Coefficient>
+       <Coefficient number="1">0.1</Coefficient>
+     </InstrumentPolynomial>
+     </Response>
+    </Channel>
+    <Channel code="VMZ" locationCode="00" startDate="2010-07-20T00:00:00.0000" restrictedStatus="open">
+     <Latitude>59.5756</Latitude>
+     <Longitude>150.77</Longitude>
+     <Elevation>335</Elevation>
+     <Depth>2</Depth>
+     <Azimuth>0</Azimuth>
+     <Dip>0</Dip>
+     <Type>CONTINUOUS</Type>
+     <Type>HEALTH</Type>
+     <SampleRate>1E-01</SampleRate>
+     <ClockDrift>0E00</ClockDrift>
+     <Sensor>
+      <Description>Streckeisen STS-1/VBB Seismometer</Description>
+     </Sensor>
+     <Response>
+     <InstrumentPolynomial>
+       <InputUnits>
+         <Name>V</Name>
+         <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+         <Name>counts</Name>
+         <Description>Digital Counts</Description>
+       </OutputUnits>
+       <ApproximationType>MACLAURIN</ApproximationType>
+       <FrequencyLowerBound>0.0</FrequencyLowerBound>
+       <FrequencyUpperBound>0.05</FrequencyUpperBound>
+       <ApproximationLowerBound>-10.0</ApproximationLowerBound>
+       <ApproximationUpperBound>10.0</ApproximationUpperBound>
+       <MaximumError>0.0</MaximumError>
+       <Coefficient number="0">0.0</Coefficient>
+       <Coefficient number="1">0.1</Coefficient>
+     </InstrumentPolynomial>
+     </Response>
+    </Channel>
+    <Channel code="VM1" locationCode="10" startDate="2011-07-01T00:00:00.0000" restrictedStatus="open">
+     <Latitude>59.5756</Latitude>
+     <Longitude>150.77</Longitude>
+     <Elevation>336.7</Elevation>
+     <Depth>0.3</Depth>
+     <Azimuth>0</Azimuth>
+     <Dip>0</Dip>
+     <Type>CONTINUOUS</Type>
+     <Type>HEALTH</Type>
+     <SampleRate>1E-01</SampleRate>
+     <ClockDrift>0E00</ClockDrift>
+     <Sensor>
+      <Description>Streckeisen STS-2 Standard-gain</Description>
+     </Sensor>
+     <Response>
+     <InstrumentPolynomial>
+       <InputUnits>
+         <Name>V</Name>
+         <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+         <Name>counts</Name>
+         <Description>Digital Counts</Description>
+       </OutputUnits>
+       <ApproximationType>MACLAURIN</ApproximationType>
+       <FrequencyLowerBound>0.0</FrequencyLowerBound>
+       <FrequencyUpperBound>0.05</FrequencyUpperBound>
+       <ApproximationLowerBound>-10.0</ApproximationLowerBound>
+       <ApproximationUpperBound>10.0</ApproximationUpperBound>
+       <MaximumError>0.0</MaximumError>
+       <Coefficient number="0">0.0</Coefficient>
+       <Coefficient number="1">0.1</Coefficient>
+     </InstrumentPolynomial>
+     </Response>
+    </Channel>
+    <Channel code="VM2" locationCode="10" startDate="2011-07-01T00:00:00.0000" restrictedStatus="open">
+     <Latitude>59.5756</Latitude>
+     <Longitude>150.77</Longitude>
+     <Elevation>336.7</Elevation>
+     <Depth>0.3</Depth>
+     <Azimuth>0</Azimuth>
+     <Dip>0</Dip>
+     <Type>CONTINUOUS</Type>
+     <Type>HEALTH</Type>
+     <SampleRate>1E-01</SampleRate>
+     <ClockDrift>0E00</ClockDrift>
+     <Sensor>
+      <Description>Streckeisen STS-2 Standard-gain</Description>
+     </Sensor>
+     <Response>
+     <InstrumentPolynomial>
+       <InputUnits>
+         <Name>V</Name>
+         <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+         <Name>counts</Name>
+         <Description>Digital Counts</Description>
+       </OutputUnits>
+       <ApproximationType>MACLAURIN</ApproximationType>
+       <FrequencyLowerBound>0.0</FrequencyLowerBound>
+       <FrequencyUpperBound>0.05</FrequencyUpperBound>
+       <ApproximationLowerBound>-10.0</ApproximationLowerBound>
+       <ApproximationUpperBound>10.0</ApproximationUpperBound>
+       <MaximumError>0.0</MaximumError>
+       <Coefficient number="0">0.0</Coefficient>
+       <Coefficient number="1">0.1</Coefficient>
+     </InstrumentPolynomial>
+     </Response>
+    </Channel>
+    <Channel code="VMZ" locationCode="10" startDate="2011-07-01T00:00:00.0000" restrictedStatus="open">
+     <Latitude>59.5756</Latitude>
+     <Longitude>150.77</Longitude>
+     <Elevation>336.7</Elevation>
+     <Depth>0.3</Depth>
+     <Azimuth>0</Azimuth>
+     <Dip>0</Dip>
+     <Type>CONTINUOUS</Type>
+     <Type>HEALTH</Type>
+     <SampleRate>1E-01</SampleRate>
+     <ClockDrift>0E00</ClockDrift>
+     <Sensor>
+      <Description>Streckeisen STS-2 Standard-gain</Description>
+     </Sensor>
+     <Response>
+     <InstrumentPolynomial>
+       <InputUnits>
+         <Name>V</Name>
+         <Description>Volts</Description>
+       </InputUnits>
+       <OutputUnits>
+         <Name>counts</Name>
+         <Description>Digital Counts</Description>
+       </OutputUnits>
+       <ApproximationType>MACLAURIN</ApproximationType>
+       <FrequencyLowerBound>0.0</FrequencyLowerBound>
+       <FrequencyUpperBound>0.05</FrequencyUpperBound>
+       <ApproximationLowerBound>-10.0</ApproximationLowerBound>
+       <ApproximationUpperBound>10.0</ApproximationUpperBound>
+       <MaximumError>0.0</MaximumError>
+       <Coefficient number="0">0.0</Coefficient>
+       <Coefficient number="1">0.1</Coefficient>
+     </InstrumentPolynomial>
+     </Response>
+    </Channel>
+   </Station>
+  </Network>
+ </FDSNStationXML>
